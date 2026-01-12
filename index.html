@@ -31,22 +31,8 @@
 <meta name="twitter:description" content="Independent finance, business, and geopolitical analysis." />
 <meta name="twitter:image" content="https://aksh13673.github.io/THE-BUSIN-SS/logo.png" />
 
-<!-- STRUCTURED DATA -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "NewsMediaOrganization",
-  "name": "THE BUSINÉSS",
-  "url": "https://aksh13673.github.io/THE-BUSIN-SS/",
-  "logo": {
-    "@type": "ImageObject",
-    "url": "https://aksh13673.github.io/THE-BUSIN-SS/logo.png"
-  }
-}
-</script>
 
 
-<!-- ================= SEO METADATA END ================= -->
 
 
   <!-- FAVICON -->
@@ -67,10 +53,9 @@
   <!-- LOGO -->
   <header class="site-header">
     <img src="logo.png" class="logos" alt="logo">
-<h1 class="titles"><strong>THE BUSINÉSS</strong></h1>
-<h2 class="underline-wide">The Best Finance & Business Site</h2>
-<h3 class="subtitle">FINANCE - BUSINESS - GEOPOLITICS</h3>
-
+    <h1 class="underline-wide" aria-hidden="true">The Best Finance & Business Site</h1>
+    <h1 class="titles"><strong>THE BUSINÉSS</strong></h1>
+    <h3 class="subtitle">FINANCE - BUSINESS - GEOPOLITICS</h3>
   </header>
 
   <!-- NAVBAR -->
@@ -168,19 +153,10 @@
   <script>
     // set year
     document.getElementById("year").innerText = new Date().getFullYear();
-
-    // Fix for mobile 100vh quirks: --vh variable
-    (function () {
-      function setVh() {
-        document.documentElement.style.setProperty('--vh', window.innerHeight * 0.01 + 'px');
-      }
-      setVh();
-      window.addEventListener('resize', setVh);
-    })();
+  
   </script>
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
